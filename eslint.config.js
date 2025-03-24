@@ -34,6 +34,7 @@ export default tseslint.config(
         { checksVoidReturn: { attributes: false } },
       ],
       "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/unbound-method": "off",
     },
   },
   {
